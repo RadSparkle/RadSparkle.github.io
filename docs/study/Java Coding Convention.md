@@ -2,7 +2,7 @@
 layout: post
 title:  "Java Coding Convention"
 date:   2022-08-04 14:29:06 +0900
-categories: TIL
+categories: study
 ---
 
 

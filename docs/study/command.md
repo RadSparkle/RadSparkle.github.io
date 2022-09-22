@@ -2,7 +2,7 @@
 layout: post
 title:  "Command"
 date:   2022-07-20 14:29:06 +0900
-categories: 
+categories: study
 ---
 <span style="color:green">리눅스 명령어</span>
 ==============================================
@@ -133,6 +133,11 @@ touch [파일명]
 chmod
 ```
 
+파일 및 디렉토르 검색
+```
+find [경로] -name [파일명]
+
+```
 
 
 
