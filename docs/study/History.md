@@ -63,8 +63,17 @@ userRemoteConfigs: [[url: '{url}', credentialsId: '{credentialID}']]
 이 부분이 원래는 url부분만 적혀있었다. 하지만 보이다싶이 credentialsId를 추가하여 Jenkins에 등록되어있는 Credential Id를 작성하였더니 정상적으로 Jenkins에서 Gitea의 private repository에 접근하여 빌드와 배포를 할수있게되었다.
 
 
+<span style="color:green"> CentOS > No match for argument 에러 </span>
+===========================================================================
+```
+sudo dnf install https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-1.el8.noarch.rpm
 
+sudo dnf --enablerepo=raven-extras install mod_evasive
+```
 
+<span style="color:green"> CentOS > RPM-GPG-KEY-CentOS-Official </span>
+===========================================================================
 
+centos.repo
 
-
+RPM-GPG-KEY-CentOS-Official.

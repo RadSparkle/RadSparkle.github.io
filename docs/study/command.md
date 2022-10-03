@@ -158,13 +158,18 @@ MySQL 설치
 dnf install mysql-server
 ```
 
+활성화, 실행, 상태확인
+```
 systemctl enable mysqld
 
 systemctl start mysqld
 
 systemctl status mysqld
+```
 
 임시 비밀번호 확인
+
+
 ```
 grep ‘temporary password’ /var/log/myqld.log
 ```
