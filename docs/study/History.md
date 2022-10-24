@@ -77,3 +77,16 @@ sudo dnf --enablerepo=raven-extras install mod_evasive
 centos.repo
 
 RPM-GPG-KEY-CentOS-Official.
+
+<span style="color:green"> CentOS > secret option required for sessions </span>
+======================================================================
+
+yarn build:prod를 하여서 빌드후 재기동하니깐 정상작동함
+
+
+<span style="color:green"> Jenkins > ./gradlew clean build명령어 오류(해결중) </span>
+===========================================================================
+
+```
+Execution failed for task ':compileJava'.
+```
